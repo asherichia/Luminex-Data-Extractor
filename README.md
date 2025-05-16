@@ -42,6 +42,9 @@ The standards CSV file should contain known concentrations for each analyte, for
 - Each row is a standard concentration for the analyte(s)
 - In this case, the Standard1 through to Standard8 is used across all analytes
 
+## Cut off files
+
+Optional inclusion - If there are defined cut offs established for your assays (e.g., interpolated cut offs) these can be use to classify samples as positive/negative as well
 
 ## Output Files
 
@@ -60,6 +63,16 @@ Each analyte generates a curve-fit plot saved as `StandardCurve_<Analyte>.png` s
 - Standard curve with fitted 4PL curve
 - Standard curve with fitted 4PL curve (Log10)
 - Efficiency plot for the standard curves
+
+An example output of a normal run, with standards working well and no overfitting
+
+![Binding curve](images/Example_Normal.png)
+
+An example output, whereby 4PL curve is fitted but does not use standards whereby hook effect is observed:
+
+![Binding curve](images/Example_HookEffect_Output.png)
+
+
 
 ## Usage
 
