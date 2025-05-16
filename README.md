@@ -1,7 +1,7 @@
 
 # Luminex Data Extractor
 
-A Python script for processing and analyzing Luminex assay data. This tool enables users to import Luminex CSV output files, apply a 4-parameter logistic (4PL) standard curve fit, interpolate unknown sample concentrations, and flag results based on quality control metrics.
+A Python script for processing and analyzing Luminex assay data (currently only tested on Luminex Intelliflex files). This tool enables users to import Luminex CSV output files (e.g. direct exports from Luminex machines), apply a 4-parameter logistic (4PL) standard curve fit, interpolate unknown sample concentrations, and identify additional samples for further dilution/testing.
 
 ## Features
 
